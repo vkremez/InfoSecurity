@@ -1,6 +1,6 @@
 ﻿'''
 === This is the server program that is queried for the host information by the client.
-=== 
+=== It is written in Python 2.7.6 using the following libraries: subprocess, socket, time, struct, _winreg
 
 
 The functions are as follows:

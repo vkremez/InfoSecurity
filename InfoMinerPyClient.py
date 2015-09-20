@@ -1,12 +1,4 @@
-'''
-This project is something of a nod to the other course I taught. You'll
-be writing a python script to gather information from a host machine and
-send it to a target server. We'll be using a bit of the code from our
-previous project, which I included in this file already.
-
-HINT: We're gonna use the crap out of the subprocess module in this
-
-Your functions are as follows:
+'''Your functions are as follows:
     create_user
         given a name, create a user
     

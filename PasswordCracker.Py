@@ -1,4 +1,4 @@
-# __author__ = 'vkremez
+# __author__ = vkremez
 
 import os
 import sys

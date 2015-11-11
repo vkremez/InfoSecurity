@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 #_author = vkremez
 
 # This is an assignment for University of Michigan's course on # "Using Python to Access Web Data."
@@ -9,8 +10,15 @@
 '''
 The program will use urllib to (1) read the HTML from the website data, (2) extract the href= values from the anchor tags, (3) scan for a tag that is in a particular position relative to the first name in the list, (4) follow that link and repeat the process a number of times and report the results.
 '''
+
+import os
 import urllib
-from bs4 import *
+import argparse
+from datetime import datetime
+from bs4 import 
+
+print os.system('echo "WEB SCRAPER 1.0"')
+print datetime.datetime.now()
 
 url = raw_input('Enter URL: ')
 html = urllib.urlopen(url).read()
@@ -28,3 +36,5 @@ for x in range(0,count-1):
   html = urllib.urlopen(tags[position-1].get('href',None)).read()
   soup = BeautifulSoup(html) tags = soup('a')
   print "Retrieving: " + tags[position-1].get('href', None)
+  
+  

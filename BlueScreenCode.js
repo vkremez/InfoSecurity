@@ -1,5 +1,5 @@
 // __author__ = vkremez
-
+// Stanford University
 image = new SimpleImage("___.jpg");
 back = new SimpleImage("____.jpg");
 back.setSameSize(image);

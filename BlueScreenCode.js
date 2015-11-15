@@ -6,7 +6,6 @@ back.setSameSize(image);
 
 for (pixel: image) {
   avg = (pixel.getRed() + pixel.getGreen() + pixel.getBlue())/3;
-  avg = (pixel.getRed() + pixel.getGreen() + pixel.getBlue())/3;
   if (pixel.getBlue() > avg * 1.1) {
     x = pixel.getX();
     y = pixel.getY();

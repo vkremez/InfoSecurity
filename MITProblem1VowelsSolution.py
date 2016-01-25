@@ -1,4 +1,6 @@
-s = 'asdadsadasdsasad'
+# MIT by Vitali
+#! /usr/bin/env python
+s = raw_input()
 
 vow = []
 for i in s:
